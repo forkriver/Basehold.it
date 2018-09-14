@@ -69,9 +69,9 @@ $store['height'] = $settings['currentHeight'];
 if(!include_once('./Stats.class.php'))
 	die('Error including Stats.class.php');
 // Instantiate instance of class
-$stats = new Stats();
+// $stats = new Stats();
 // Store the stats!
-$stats -> store($store);
+// $stats -> store($store);
 
 // Set the content-type to png
 header("Content-type: image/png"); 
